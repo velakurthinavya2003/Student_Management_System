@@ -1,0 +1,184 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #e4e9f7;
+    
+    
+}
+.main{
+    
+    background: #9eb3ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 100px;
+    padding: 25px 25px;
+    border-radius: 20px;
+    width: 200px;
+    
+}
+.main button {
+    
+    
+    width: 100%;
+}
+.main button a{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1) ,
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-box form .input input{
+    height: 40px;
+    width:100%;
+    font-size: 16px;
+    padding:0 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    outline: none;
+}
+.form-box form .input option{
+    height: 40px;
+    width:100%;
+    font-size: 16px;
+    padding:0 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    outline: none;
+}
+
+    
+.btn
+{
+    height: 35px;
+    background: rgba(76,68,182,0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top:10px;
+    padding:0px 10px;
+}
+.btn:hover{
+    opacity: 0.2;
+    
+}
+.submit{
+    width:100%;
+}
+.links
+{
+    margin-bottom: 15px;
+}
+
+
+/* Student-dashboard */
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index:100;
+}
+.logo a{
+    font-size: 25px;
+    font-weight:900;
+    text-decoration: none;
+    color: #000;
+}
+.right-links a{
+    padding: 0 10px;
+}
+.table_body
+{
+    margin: 5px 0px;
+    width: 100%;
+   
+}
+.table
+{
+    text-align: center;
+}
+.sidenav{
+    height:100%;
+    width:200px;
+    position: fixed;
+    background:#ccc;
+    z-index: 1;
+    top:0;
+    left:0;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+.sidenav a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 8px 0px 5px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    
+}
+.main_container{
+    
+    min-height: 20vh;
+    margin-left: 500px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.table_body_admin{
+    margin-left: 200px;
+}
+
+   
+
+   
+   
+    
